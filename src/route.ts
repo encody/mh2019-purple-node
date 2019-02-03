@@ -1,5 +1,5 @@
-import { Application, NextFunction, Request, Response } from "express-serve-static-core";
 import { Repository, Connection, Raw, } from "typeorm";
+import { Application, Request, Response, NextFunction } from "express";
 
 export class Routable {
     public static relations (): string[] { return []; }
