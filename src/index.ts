@@ -118,7 +118,7 @@ createConnection().then(async connection => {
 
     routeDefault(app, '/user', connection.getRepository(User), User.relations());
 
-    app.listen(80);
+    app.listen(process.env.PORT || 80);
 
     console.log("Server started");
 }).catch(error => console.log(error));
