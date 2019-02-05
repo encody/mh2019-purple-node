@@ -3,7 +3,6 @@
    "host": "35.232.137.21",
    "port": 3306,
    "username": "root",
-   "password": "hack? never because #octocat",
    "database": "fishinanet",
    "synchronize": true,
    "logging": true,
